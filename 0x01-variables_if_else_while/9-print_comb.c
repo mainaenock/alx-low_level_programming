@@ -11,7 +11,7 @@ while (num <= 9)
 {
 	putchar (num + '0');
 	putchar (',');
-	putchar ('\t');
+	putchar (' ');
 	num++;
 }
 putchar ('\n');
