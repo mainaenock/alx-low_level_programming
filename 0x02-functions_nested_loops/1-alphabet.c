@@ -5,14 +5,18 @@
  *
  * Return: Always 0.
  */
+void print_alphabet(void)
+{
+char a = 'a';
+while (a <= 'z')
+{
+putchar(a);
+a++;
+}
+putchar('\n');
+}
 int main(void)
 {
-    char a = 'a';
-    while (a <= 'z')
-    {
-    printf("%c",a);
-    a++;
-    }
-    printf("\n");
-    return (0);
+print_alphabet();
+return (0);
 }
