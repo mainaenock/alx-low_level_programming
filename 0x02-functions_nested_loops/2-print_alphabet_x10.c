@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet - make alpha
+ * print_alphabet_x10 - make alpha
  *
  * Return: Always 0
  */
