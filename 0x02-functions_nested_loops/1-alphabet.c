@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -9,14 +9,9 @@ void print_alphabet(void)
 {
 char a = 'a';
 while (a <= 'z')
-{
-_putchar(a);
-a++;
-}
+	{
+	_putchar(a);
+	a++;
+	}
 _putchar('\n');
-}
-int main(void)
-{
-print_alphabet();
-return (0);
 }
