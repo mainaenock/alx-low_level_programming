@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -7,11 +7,10 @@
  */
 void print_alphabet(void)
 {
-char a = 'a';
-while (a <= 'z')
-	{
-	_putchar(a);
-	a++;
-	}
-_putchar('\n');
+char a;
+for(a = 'a'; a <= 'z'; a++)
+{
+	putchar (a);
+}
+putchar ('\n');
 }
