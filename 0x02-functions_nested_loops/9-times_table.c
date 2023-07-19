@@ -16,8 +16,8 @@ for (r = 0; r <= 9; r++)
 		temp = num;
 		if (num > 9)
 		{
-			 _putchar (',');
-			  _putchar (' ');
+		_putchar (',');
+		_putchar (' ');
 		_putchar (num / 10 + '0');
 		temp = num % 10;
 		}
