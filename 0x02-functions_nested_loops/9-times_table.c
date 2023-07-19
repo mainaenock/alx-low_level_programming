@@ -19,6 +19,10 @@ for (r = 0; r <= 9; r++)
 		_putchar (num / 10 + '0');
 		temp = num % 10;
 		}
+		else
+		{
+			_putchar (' ');
+		}
 		_putchar (temp + '0');
 		_putchar (',');
 		_putchar (' ');
