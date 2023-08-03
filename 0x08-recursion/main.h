@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int wildcmp(char *s1, char *s2);
+int is_palindrome(char *s);
 int actual_prime(int n, int i);
 int _putchar(int c);
 void _puts_recursion(char *s);
