@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int actual_prime(int n, int i);
 int _putchar(int c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
