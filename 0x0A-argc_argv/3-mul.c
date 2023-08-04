@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -10,12 +11,20 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i;
+	int num1, num2, sum;
 
-	for(i = 0; i < argc; i++)
+	if (argc != 3)
 	{
-		printf("%s\n", argv[i]);
+		printf("Error\n");
+		return (1);
 	}
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	sum = num1 * num2;
+
+	printf("%d\n", sum);
 	return (0);
+
 }
 
