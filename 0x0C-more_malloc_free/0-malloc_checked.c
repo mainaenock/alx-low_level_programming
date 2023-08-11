@@ -3,7 +3,8 @@
 
 /**
  * malloc_checked - prototype
- * @b - the size
+ * @b: the size
+ * description: b is the size
  *
  * Return: str
  */
