@@ -5,18 +5,17 @@
  * malloc_checked - prototype
  * @b - the size
  *
- * Return: ptr
+ * Return: str
  */
 void *malloc_checked(unsigned int b)
 {
-	int *str;
+	void *str;
 
-	str = malloc(sizeof(b));
+	str = malloc(b);
 	if (str == NULL)
 	{
-		exit (98);
+		exit(98);
 	}
-
 
 	return (str);
 
