@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strcat - prototype
@@ -10,7 +11,6 @@
 
 char *_strcat(char *dest, char *src)
 {    
-	char ptr[];
 
 	strcat (dest, src);
 
