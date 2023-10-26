@@ -12,13 +12,13 @@ int factorial(int n)
 {
 	int s;
 
-	while (n < 0)
+	if (n < 0)
 	{
 		return (-1);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
-		return 1;
+		return (1);
 	}
 		s = n * factorial(n - 1);
 
