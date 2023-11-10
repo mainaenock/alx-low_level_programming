@@ -15,12 +15,14 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	unsigned int i;
 	va_list enock;
+	char *maina;
 
 	va_start(enock, n);
 
 	for (i = 0; i < n; i++)
 	{
-		if (va_arg(enock, char *) == NULL)
+		maina = va_arg(enock, char *);
+		if (maina == NULL)
 		{
 			printf("nil");
 		}
