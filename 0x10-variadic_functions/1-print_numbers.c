@@ -30,5 +30,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf(", ");
 		}
 	}
+	printf("\n");
 	va_end(enock);
 }
