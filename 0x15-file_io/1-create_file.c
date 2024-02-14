@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <string.h>
 
 /**
  * create_file - creates file if don't exist
@@ -35,7 +36,7 @@ int create_file(const char *filename, char *text_content)
 	}
 	if (text_content != NULL)
 	{
-		btwritten = write(fd, text_content, sizeof(text_content) - 1);
+		btwritten = write(fd, text_content, strlen(text_content));
 
 		if (btwritten == -1)
 		{
