@@ -41,7 +41,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	close(fd);
-	printf("%s", buffer);
+	printf("%.*s",(int)btread, buffer);
 	free(buffer);
 	return (btread);
 
