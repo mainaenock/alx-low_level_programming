@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -9,8 +11,12 @@
 
 int main(int argc, char *argv[])
 {
+
 	(void)argc;
-	printf("%s", argv[0]);
+	if (argv[0] != NULL)
+	{
+		printf("%s", argv[0]);
+	}
 
 	return (0);
 }
