@@ -7,9 +7,10 @@
  * Return: alwys 0
  */
 
-int main(void)
+int main(int argc, char *argv[])
 {
-	printf("mynameis");
+	(void)argc;
+	printf("%s", argv[0]);
 
 	return (0);
 }
