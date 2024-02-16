@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
  * main - entry point
+ * @argc: the count of arguments
+ * @argv: the string of arguments
  * Description: describes the program
  *
  * Return: alwys 0
