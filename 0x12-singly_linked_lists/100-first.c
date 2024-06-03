@@ -2,7 +2,7 @@
 
 void __attribute__((constructor)) before(void);
 /**
- * before_main - print a message before the main function is execute.
+ * before - print a message before the main function is execute.
  *
  * Return: nothing.
  */
