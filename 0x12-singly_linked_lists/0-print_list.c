@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -22,7 +23,7 @@ size_t print_list(const list_t *h)
 		count ++;
 		if (temp->str == NULL)
 		{
-			printf("[0] (nil)\n");
+			_putchar("[0] (nil)\n");
 		}
 		else
 		{
