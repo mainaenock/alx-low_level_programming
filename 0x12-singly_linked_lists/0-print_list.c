@@ -23,7 +23,7 @@ size_t print_list(const list_t *h)
 		count ++;
 		if (temp->str == NULL)
 		{
-			_putchar("[0] (nil)\n");
+			printf("[0] (nil)\n");
 		}
 		else
 		{
