@@ -13,18 +13,21 @@ size_t print_list(const list_t *h)
 {
 
 	size_t count = 0;
+	const list_t *temp;
 
-	while (h != NULL)
+	temp = h;
+
+	while (temp != NULL)
 	{
-		if (h->str == NULL)
+		if (temp->str == NULL)
 		{
 			printf("[0] (nil)\n");
 		}
 		else
 		{
-			printf("[%lu] %s\n", h->len, h->str);
+			printf("[%lu] %s\n", temp->len, temp->str);
 		}
-		h = h->next;
+		temp = temp->next;
 		count++;
 	}
 	return (count);
